@@ -15,7 +15,7 @@ class Rectangle extends FabricCanvasTool {
     this.isDown = true;
     this.isDragging = false;
     this.objectAdd = false;
-    this.strokeWidth = 2;
+    this.strokeWidth = 1;
   }
 
   doMouseDown(options, props, sketch) {

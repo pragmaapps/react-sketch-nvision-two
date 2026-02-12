@@ -7,12 +7,12 @@
 		var a = typeof exports === 'object' ? factory(require("react")) : factory(root["react"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(self, function(__WEBPACK_EXTERNAL_MODULE__155__) {
-return /******/ (function() { // webpackBootstrap
+})(self, (__WEBPACK_EXTERNAL_MODULE__155__) => {
+return /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ 44:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
@@ -35,7 +35,7 @@ module.exports = _createClass;
 /***/ }),
 
 /***/ 56:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var arrayWithHoles = __webpack_require__(394);
 
@@ -52,7 +52,7 @@ module.exports = _slicedToArray;
 /***/ }),
 
 /***/ 92:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {
@@ -95,7 +95,7 @@ module.exports = _asyncToGenerator;
 /***/ }),
 
 /***/ 155:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 module.exports = __WEBPACK_EXTERNAL_MODULE__155__;
@@ -103,7 +103,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__155__;
 /***/ }),
 
 /***/ 185:
-/***/ (function(module) {
+/***/ ((module) => {
 
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
@@ -831,7 +831,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__155__;
 /***/ }),
 
 /***/ 197:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _setPrototypeOf(o, p) {
   module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
@@ -847,7 +847,7 @@ module.exports = _setPrototypeOf;
 /***/ }),
 
 /***/ 207:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__(266);
 
@@ -855,14 +855,14 @@ module.exports = __webpack_require__(266);
 /***/ }),
 
 /***/ 246:
-/***/ (function() {
+/***/ (() => {
 
 /* (ignored) */
 
 /***/ }),
 
 /***/ 266:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
@@ -906,7 +906,7 @@ if (hadRuntime) {
 /***/ }),
 
 /***/ 274:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
@@ -919,7 +919,7 @@ module.exports = _classCallCheck;
 /***/ }),
 
 /***/ 337:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _getPrototypeOf(o) {
   module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
@@ -933,7 +933,7 @@ module.exports = _getPrototypeOf;
 /***/ }),
 
 /***/ 394:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _arrayWithHoles(arr) {
   if (Array.isArray(arr)) return arr;
@@ -944,7 +944,7 @@ module.exports = _arrayWithHoles;
 /***/ }),
 
 /***/ 396:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _defineProperty(obj, key, value) {
   if (key in obj) {
@@ -966,7 +966,7 @@ module.exports = _defineProperty;
 /***/ }),
 
 /***/ 453:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _iterableToArrayLimit(arr, i) {
   var _arr = [];
@@ -999,7 +999,7 @@ module.exports = _iterableToArrayLimit;
 /***/ }),
 
 /***/ 556:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1019,14 +1019,14 @@ if (false) // removed by dead control flow
 /***/ }),
 
 /***/ 574:
-/***/ (function() {
+/***/ (() => {
 
 /* (ignored) */
 
 /***/ }),
 
 /***/ 611:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var _typeof = __webpack_require__(735);
 
@@ -1045,7 +1045,7 @@ module.exports = _possibleConstructorReturn;
 /***/ }),
 
 /***/ 676:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 /* build: `node build.js modules=ALL exclude=gestures,accessors,erasing requirejs minifier=uglifyjs` */
 /*! Fabric.js Copyright 2008-2015, Printio (Juriy Zaytsev, Maxim Chernyak) */
@@ -31836,7 +31836,7 @@ fabric.util.object.extend(fabric.IText.prototype, /** @lends fabric.IText.protot
 /***/ }),
 
 /***/ 694:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 /**
@@ -31909,7 +31909,7 @@ module.exports = function() {
 /***/ }),
 
 /***/ 735:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
 
@@ -31932,14 +31932,14 @@ module.exports = _typeof;
 /***/ }),
 
 /***/ 748:
-/***/ (function() {
+/***/ (() => {
 
 /* (ignored) */
 
 /***/ }),
 
 /***/ 778:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var defineProperty = __webpack_require__(396);
 
@@ -31967,7 +31967,7 @@ module.exports = _objectSpread;
 /***/ }),
 
 /***/ 779:
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 // ESM COMPAT FLAG
@@ -31975,45 +31975,45 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  angleReflect: function() { return /* reexport */ angleReflect; },
-  angleToDegrees: function() { return /* reexport */ angleToDegrees; },
-  angleToRadians: function() { return /* reexport */ angleToRadians; },
-  lineAngle: function() { return /* reexport */ lineAngle; },
-  lineInterpolate: function() { return /* reexport */ lineInterpolate; },
-  lineIntersectsLine: function() { return /* reexport */ lineIntersectsLine; },
-  lineIntersectsPolygon: function() { return /* reexport */ lineIntersectsPolygon; },
-  lineLength: function() { return /* reexport */ lineLength; },
-  lineMidpoint: function() { return /* reexport */ lineMidpoint; },
-  lineRotate: function() { return /* reexport */ lineRotate; },
-  lineTranslate: function() { return /* reexport */ lineTranslate; },
-  pointInPolygon: function() { return /* reexport */ pointInPolygon; },
-  pointLeftofLine: function() { return /* reexport */ pointLeftofLine; },
-  pointOnLine: function() { return /* reexport */ pointOnLine; },
-  pointOnPolygon: function() { return /* reexport */ pointOnPolygon; },
-  pointRightofLine: function() { return /* reexport */ pointRightofLine; },
-  pointRotate: function() { return /* reexport */ pointRotate; },
-  pointTranslate: function() { return /* reexport */ pointTranslate; },
-  pointWithLine: function() { return /* reexport */ pointWithLine; },
-  polygonArea: function() { return /* reexport */ polygonArea; },
-  polygonBounds: function() { return /* reexport */ polygonBounds; },
-  polygonCentroid: function() { return /* reexport */ polygonCentroid; },
-  polygonHull: function() { return /* reexport */ polygonHull; },
-  polygonInPolygon: function() { return /* reexport */ polygonInPolygon; },
-  polygonInterpolate: function() { return /* reexport */ polygonInterpolate; },
-  polygonIntersectsPolygon: function() { return /* reexport */ polygonIntersectsPolygon; },
-  polygonLength: function() { return /* reexport */ polygonLength; },
-  polygonMean: function() { return /* reexport */ polygonMean; },
-  polygonRandom: function() { return /* reexport */ polygonRandom; },
-  polygonReflectX: function() { return /* reexport */ polygonReflectX; },
-  polygonReflectY: function() { return /* reexport */ polygonReflectY; },
-  polygonRegular: function() { return /* reexport */ polygonRegular; },
-  polygonRotate: function() { return /* reexport */ polygonRotate; },
-  polygonScale: function() { return /* reexport */ polygonScale; },
-  polygonScaleArea: function() { return /* reexport */ polygonScaleArea; },
-  polygonScaleX: function() { return /* reexport */ polygonScaleX; },
-  polygonScaleY: function() { return /* reexport */ polygonScaleY; },
-  polygonTranslate: function() { return /* reexport */ polygonTranslate; },
-  polygonWind: function() { return /* reexport */ polygonWind; }
+  angleReflect: () => (/* reexport */ angleReflect),
+  angleToDegrees: () => (/* reexport */ angleToDegrees),
+  angleToRadians: () => (/* reexport */ angleToRadians),
+  lineAngle: () => (/* reexport */ lineAngle),
+  lineInterpolate: () => (/* reexport */ lineInterpolate),
+  lineIntersectsLine: () => (/* reexport */ lineIntersectsLine),
+  lineIntersectsPolygon: () => (/* reexport */ lineIntersectsPolygon),
+  lineLength: () => (/* reexport */ lineLength),
+  lineMidpoint: () => (/* reexport */ lineMidpoint),
+  lineRotate: () => (/* reexport */ lineRotate),
+  lineTranslate: () => (/* reexport */ lineTranslate),
+  pointInPolygon: () => (/* reexport */ pointInPolygon),
+  pointLeftofLine: () => (/* reexport */ pointLeftofLine),
+  pointOnLine: () => (/* reexport */ pointOnLine),
+  pointOnPolygon: () => (/* reexport */ pointOnPolygon),
+  pointRightofLine: () => (/* reexport */ pointRightofLine),
+  pointRotate: () => (/* reexport */ pointRotate),
+  pointTranslate: () => (/* reexport */ pointTranslate),
+  pointWithLine: () => (/* reexport */ pointWithLine),
+  polygonArea: () => (/* reexport */ polygonArea),
+  polygonBounds: () => (/* reexport */ polygonBounds),
+  polygonCentroid: () => (/* reexport */ polygonCentroid),
+  polygonHull: () => (/* reexport */ polygonHull),
+  polygonInPolygon: () => (/* reexport */ polygonInPolygon),
+  polygonInterpolate: () => (/* reexport */ polygonInterpolate),
+  polygonIntersectsPolygon: () => (/* reexport */ polygonIntersectsPolygon),
+  polygonLength: () => (/* reexport */ polygonLength),
+  polygonMean: () => (/* reexport */ polygonMean),
+  polygonRandom: () => (/* reexport */ polygonRandom),
+  polygonReflectX: () => (/* reexport */ polygonReflectX),
+  polygonReflectY: () => (/* reexport */ polygonReflectY),
+  polygonRegular: () => (/* reexport */ polygonRegular),
+  polygonRotate: () => (/* reexport */ polygonRotate),
+  polygonScale: () => (/* reexport */ polygonScale),
+  polygonScaleArea: () => (/* reexport */ polygonScaleArea),
+  polygonScaleX: () => (/* reexport */ polygonScaleX),
+  polygonScaleY: () => (/* reexport */ polygonScaleY),
+  polygonTranslate: () => (/* reexport */ polygonTranslate),
+  polygonWind: () => (/* reexport */ polygonWind)
 });
 
 ;// ./node_modules/geometric/src/angles/angleToDegrees.js
@@ -32844,14 +32844,14 @@ function angleReflect(incidenceAngle, surfaceAngle) {
 /***/ }),
 
 /***/ 854:
-/***/ (function(module) {
+/***/ ((module) => {
 
 module.exports = "data:image/svg+xml,%3csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 15 15' shape-rendering='crispEdges'%3e %3ctitle%3eplus%3c/title%3e %3cpath fill='%23fff' d='M3.125 8.125h3.75v3.75c0 0.345 0.28 0.625 0.625 0.625s0.625-0.28 0.625-0.625v-3.75h3.75c0.345 0 0.625-0.28 0.625-0.625s-0.28-0.625-0.625-0.625h-3.75v-3.75c0-0.345-0.28-0.625-0.625-0.625s-0.625 0.28-0.625 0.625v3.75h-3.75c-0.345 0-0.625 0.28-0.625 0.625s0.28 0.625 0.625 0.625z'%3e%3c/path%3e %3c/svg%3e"
 
 /***/ }),
 
 /***/ 923:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance");
@@ -32862,7 +32862,7 @@ module.exports = _nonIterableRest;
 /***/ }),
 
 /***/ 925:
-/***/ (function(module) {
+/***/ ((module) => {
 
 "use strict";
 /**
@@ -32882,7 +32882,7 @@ module.exports = ReactPropTypesSecret;
 /***/ }),
 
 /***/ 972:
-/***/ (function(module) {
+/***/ ((module) => {
 
 function _assertThisInitialized(self) {
   if (self === void 0) {
@@ -32897,7 +32897,7 @@ module.exports = _assertThisInitialized;
 /***/ }),
 
 /***/ 994:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var setPrototypeOf = __webpack_require__(197);
 
@@ -32948,60 +32948,60 @@ module.exports = _inherits;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = function(module) {
+/******/ 		__webpack_require__.n = (module) => {
 /******/ 			var getter = module && module.__esModule ?
-/******/ 				function() { return module['default']; } :
-/******/ 				function() { return module; };
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
 /******/ 			__webpack_require__.d(getter, { a: getter });
 /******/ 			return getter;
 /******/ 		};
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = function(exports, definition) {
+/******/ 		__webpack_require__.d = (exports, definition) => {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
 /******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
 /******/ 				}
 /******/ 			}
 /******/ 		};
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	!function() {
-/******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
-/******/ 	}();
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
-/******/ 	!function() {
+/******/ 	(() => {
 /******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = function(exports) {
+/******/ 		__webpack_require__.r = (exports) => {
 /******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
 /******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	}();
+/******/ 	})();
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry needs to be wrapped in an IIFE because it needs to be in strict mode.
-!function() {
+(() => {
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  MiraMode: function() { return /* reexport */ src_MiraMode; },
-  NvisionSketchField: function() { return /* reexport */ nVisionSketchField; },
-  SketchField: function() { return /* reexport */ src_SketchField; },
-  Tools: function() { return /* reexport */ tools; },
-  "default": function() { return /* binding */ src; }
+  MiraMode: () => (/* reexport */ src_MiraMode),
+  NvisionSketchField: () => (/* reexport */ nVisionSketchField),
+  SketchField: () => (/* reexport */ src_SketchField),
+  Tools: () => (/* reexport */ tools),
+  "default": () => (/* binding */ src)
 });
 
 // NAMESPACE OBJECT: ./node_modules/react-resize-detector/build/index.js
@@ -33205,7 +33205,7 @@ var History =
   return History;
 }()));
 
-/* harmony default export */ var src_history = ((/* unused pure expression or super */ null && (History)));
+/* harmony default export */ const src_history = ((/* unused pure expression or super */ null && (History)));
 ;// ./src/utils.js
 /**
  * Determine the mouse position
@@ -33315,7 +33315,7 @@ function () {
   return FabricCanvasTool;
 }();
 
-/* harmony default export */ var fabrictool = (FabricCanvasTool);
+/* harmony default export */ const fabrictool = (FabricCanvasTool);
 ;// ./src/select.js
 
 
@@ -33352,7 +33352,7 @@ function (_FabricCanvasTool) {
   return Select;
 }(fabrictool);
 
-/* harmony default export */ var src_select = (Select);
+/* harmony default export */ const src_select = (Select);
 ;// ./src/pencil.js
 
 
@@ -33384,7 +33384,7 @@ function (_FabricCanvasTool) {
   return Pencil;
 }(fabrictool);
 
-/* harmony default export */ var pencil = (Pencil);
+/* harmony default export */ const pencil = (Pencil);
 ;// ./src/line.js
 
 
@@ -33472,7 +33472,7 @@ function (_FabricCanvasTool) {
   return Line;
 }(fabrictool);
 
-/* harmony default export */ var line = (Line);
+/* harmony default export */ const line = (Line);
 ;// ./src/arrow.js
 
 
@@ -33578,7 +33578,7 @@ function (_FabricCanvasTool) {
   return Arrow;
 }(fabrictool);
 
-/* harmony default export */ var arrow = (Arrow);
+/* harmony default export */ const arrow = (Arrow);
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/regenerator/index.js
 var regenerator = __webpack_require__(207);
 var regenerator_default = /*#__PURE__*/__webpack_require__.n(regenerator);
@@ -33847,7 +33847,7 @@ function (_FabricCanvasTool) {
       this.isDown = true;
       this.isDragging = false;
       this.objectAdd = false;
-      this.strokeWidth = 2;
+      this.strokeWidth = 1;
     }
   }, {
     key: "doMouseDown",
@@ -34014,7 +34014,7 @@ function (_FabricCanvasTool) {
   return Rectangle;
 }(fabrictool);
 
-/* harmony default export */ var rectangle = (Rectangle);
+/* harmony default export */ const rectangle = (Rectangle);
 ;// ./src/circle.js
 
 
@@ -34103,7 +34103,7 @@ function (_FabricCanvasTool) {
   return Circle;
 }(fabrictool);
 
-/* harmony default export */ var circle = (Circle);
+/* harmony default export */ const circle = (Circle);
 ;// ./src/pan.js
 
 
@@ -34169,9 +34169,9 @@ function (_FabricCanvasTool) {
   return Pan;
 }(fabrictool);
 
-/* harmony default export */ var pan = (Pan);
+/* harmony default export */ const pan = (Pan);
 ;// ./src/tools.js
-/* harmony default export */ var tools = ({
+/* harmony default export */ const tools = ({
   Circle: 'circle',
   Line: 'line',
   Arrow: 'arrow',
@@ -34241,7 +34241,7 @@ function () {
   return RectangleLabelObject;
 }();
 
-/* harmony default export */ var rectangle_label_object = (RectangleLabelObject);
+/* harmony default export */ const rectangle_label_object = (RectangleLabelObject);
 ;// ./src/rectangle-label.js
 
 
@@ -34390,7 +34390,7 @@ function (_FabricCanvasTool) {
   return RectangleLabel;
 }(fabrictool);
 
-/* harmony default export */ var rectangle_label = (RectangleLabel);
+/* harmony default export */ const rectangle_label = (RectangleLabel);
 ;// ./src/defaul-tool.js
 
 
@@ -34431,7 +34431,7 @@ function (_FabricCanvasTool) {
   return DefaultTool;
 }(fabrictool);
 
-/* harmony default export */ var defaul_tool = (DefaultTool);
+/* harmony default export */ const defaul_tool = (DefaultTool);
 ;// ./node_modules/react-resize-detector/build/index.js
 
 //# sourceMappingURL=index.js.map
@@ -34928,7 +34928,7 @@ function (_Component) {
   return NvistaRoiSettings;
 }(external_react_.Component);
 
-/* harmony default export */ var NvistaRoiSettingsPanel = (NvistaRoiSettings);
+/* harmony default export */ const NvistaRoiSettingsPanel = (NvistaRoiSettings);
 ;// ./src/SketchField.jsx
 
 
@@ -36224,7 +36224,7 @@ SketchField.defaultProps = {
     return null;
   }
 };
-/* harmony default export */ var src_SketchField = (SketchField);
+/* harmony default export */ const src_SketchField = (SketchField);
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/objectSpread.js
 var objectSpread = __webpack_require__(778);
 var objectSpread_default = /*#__PURE__*/__webpack_require__.n(objectSpread);
@@ -36622,7 +36622,7 @@ function (_FabricCanvasTool) {
   return Ellipse;
 }(fabrictool);
 
-/* harmony default export */ var ellipse = (Ellipse);
+/* harmony default export */ const ellipse = (Ellipse);
 ;// ./src/polygon.js
 
 
@@ -37280,7 +37280,7 @@ function (_FabricCanvasTool) {
   return Polygon;
 }(fabrictool);
 
-/* harmony default export */ var polygon = (Polygon);
+/* harmony default export */ const polygon = (Polygon);
 ;// ./src/freedrawline.js
 
 
@@ -37450,7 +37450,7 @@ function (_FabricCanvasTool) {
   return FreeDrawLine;
 }(fabrictool);
 
-/* harmony default export */ var freedrawline = (FreeDrawLine);
+/* harmony default export */ const freedrawline = (FreeDrawLine);
 ;// ./node_modules/@daybrush/utils/dist/utils.esm.js
 /*
 Copyright (c) 2018 Daybrush
@@ -42059,7 +42059,7 @@ NvisionSketchField.defaultProps = {
     return null;
   }
 };
-/* harmony default export */ var nVisionSketchField = (NvisionSketchField);
+/* harmony default export */ const nVisionSketchField = (NvisionSketchField);
 ;// ./src/MiraMode.js
 
 
@@ -42609,7 +42609,7 @@ MiraMode.defaultProps = {
   image: null,
   callResize: false
 };
-/* harmony default export */ var src_MiraMode = (MiraMode);
+/* harmony default export */ const src_MiraMode = (MiraMode);
 ;// ./src/index.js
 
 
@@ -42619,13 +42619,14 @@ MiraMode.defaultProps = {
 
 
 
-/* harmony default export */ var src = ({
+/* harmony default export */ const src = ({
   SketchField: src_SketchField,
   Tools: tools,
   MiraMode: src_MiraMode,
   NvisionSketchField: nVisionSketchField
 });
-}();
+})();
+
 /******/ 	return __webpack_exports__;
 /******/ })()
 ;
